@@ -1,0 +1,5 @@
+# IJ editor stuff
+.idea/
+
+# Environments
+LearningJava.iml
