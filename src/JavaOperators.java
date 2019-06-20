@@ -73,3 +73,51 @@ class AndOperator {
         System.out.println(a);
     }
 }
+
+class OrOperator {
+    public static void main(String [] args){
+        int a = 10;
+        int b = 5;
+        int c = 20;
+        System.out.println(a > b || a < c);
+        System.out.println(a > b | a < c);
+        System.out.println(a > b || a++ < c);
+        System.out.println(a);
+        System.out.println( a > b | a++ < c);
+        System.out.println(a);
+    }
+}
+
+class TernaryOperator {
+     public static void main(String [] args){
+         int a = 10;
+         int b = 5;
+         int min = (a < b) ? a : b;
+         System.out.println(min);
+     }
+}
+
+class AssignmentOperator {
+    public static void main(String [] args){
+        int a = 10;
+        int b = 20;
+        a += 4;
+        b -= 4;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println("\nEx1");
+        a += 3;
+        System.out.println(a);
+        a -= 4;
+        System.out.println(a);
+        a *=2;
+        System.out.println(a);
+        a /= 2;
+        System.out.println(a);
+        System.out.println("\nEx2");
+        short c = 10;
+        short d = 10;
+        c = (short)(c + d);
+        System.out.println(c);
+    }
+}
