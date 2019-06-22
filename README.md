@@ -49,3 +49,5 @@ Hello Java !
 * if-else statement
 * if-else-if ladder
 * nested if statement
+
+### Switch Statement
