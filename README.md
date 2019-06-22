@@ -51,3 +51,7 @@ Hello Java !
 * nested if statement
 
 ### Switch Statement
+### For Loop
+* simple for loop
+* for-each or enhanced for loop
+* labeled for loop
