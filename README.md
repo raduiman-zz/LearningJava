@@ -55,3 +55,4 @@ Hello Java !
 * simple for loop
 * for-each or enhanced for loop
 * labeled for loop
+### While Loop
