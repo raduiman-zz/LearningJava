@@ -59,3 +59,7 @@ Hello Java !
 ### Do-While Loop
 ### Break
 ### Continue
+### Comments
+* single line //
+* multi line /*...*/
+* documentation /**...*/   (javadoc tool)
