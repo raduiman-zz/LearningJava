@@ -44,13 +44,13 @@ Hello Java !
 
 # Statements
 
-### If-Else Statement:
+### If-Else:
 * if statement
 * if-else statement
 * if-else-if ladder
 * nested if statement
 
-### Switch Statement
+### Switch
 ### For Loop
 * simple for loop
 * for-each or enhanced for loop
@@ -58,3 +58,4 @@ Hello Java !
 ### While Loop
 ### Do-While Loop
 ### Break
+### Continue
