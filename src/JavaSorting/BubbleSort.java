@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BubbleSort {
 
-    static void bubbleSort(int[] arr) {
+   static void bubbleSort(int[] arr) {
         int n = arr.length;
         int aux;
         for(int i = 0; i < n; i++) {
@@ -16,9 +16,8 @@ public class BubbleSort {
                 }
             }
         }
-    }
-
-    static int[] readArray(){
+   }
+   public static int[] readArray(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter length of String array: ");
         int length = sc.nextInt();
@@ -33,7 +32,7 @@ public class BubbleSort {
         System.out.println("The String array input from user is: ");
         System.out.println(Arrays.toString(input));
         return arr;
-    }
+   }
 
     public static void main(String[] args){
         int[] arr = readArray();
