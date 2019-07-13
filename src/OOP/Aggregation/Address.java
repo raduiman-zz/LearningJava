@@ -1,4 +1,4 @@
-package Aggregation;
+package OOP.Aggregation;
 
 public class Address {
     String city, state, country;
