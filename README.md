@@ -63,3 +63,10 @@ Hello Java !
 * single line //
 * multi line /*...*/
 * documentation /**...*/   (javadoc tool)
+
+# Access Modifiers
+
+* Private - it cannot be accessed from outside the class
+* Default - it cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+* Protected - it cannot be accesed from outside the package if you do not make the child class
+* Public  - it can be accessed from everywhere
