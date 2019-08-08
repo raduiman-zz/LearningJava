@@ -1,6 +1,7 @@
 # IJ editor stuff
 .idea/
 out/
+.class
 
 # Environments
 LearningJava.iml
