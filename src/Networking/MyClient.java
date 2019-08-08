@@ -3,7 +3,7 @@ package Networking;
 import java.net.*;
 import java.io.*;
 
-public class MyClent {
+public class MyClient {
     public static void main(String[] args) {
         try {
             Socket s = new Socket("localhost", 6666);
@@ -11,7 +11,7 @@ public class MyClent {
             dout.writeUTF("Hello Server");
             dout.flush();
             dout.close();
-            s.close;
+            s.close();
         } catch (Exception e) {
             System.out.println(e);
         }
